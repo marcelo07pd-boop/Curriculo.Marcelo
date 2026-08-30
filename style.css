@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #666769;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 768px){
+
+}
+
+
+.container{
+    width: 55%;
+    max-width: 1300px;
+    margin: 68px auto 40px;
+    background: White;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 10px solid #2563eb;
+    margin-bottom: 27px;
+}
+
+.foto img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 75%;
+    object-fit: cover;
+    border: 5px solid #2563eb;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.secao{
+    padding-bottom: 20px;
+    border-bottom: 10px solid #371ad8;
+    
+}
+
+.secao h2{
+    color: #2563eb;
+    margin-bottom: 30px;
+    border-bottom: 7px solid #2563eb;
+    text-align: left;
+    padding-bottom: 22px;
+}
+
+.secao p{
+    font-size: 18px;
+    line-height: 1.7;
+    color:#444;
+    text-align: left;
+}
+.secao ul{
+    margin-top: 10px;
+    margin-left: 8px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.secao li{
+    font-size: 18px;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.esquerda{
+    flex: 0.9;
+}
+
+.direita{
+    flex: 1.1;
+}
+
+h1{
+    font-size: 40px;
+    color: #1e3a8a;
+}
+
+h2{
+    font-size: 24px;
+    color: #2563eb;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+h3{
+    font-size: 28px;
+    color: #444;
+}
+
+p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.7;
+}
+
+li{
+    margin-bottom: 8px;
+    color: #555;
+}
+@media (max-width: 768px){
+    .container{
+        width: 95%;
+        padding: 20px;
+    }
+    .cabecalho{
+        flex-direction: column;
+        text-align: center;
+    }
+    .foto{
+        margin-bottom: 20px;
+    }
+    .conteudo{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .foto img{
+        width: 140px;
+        height: 140px;
+    }
+}
